@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rubick2D", "rubick2D\rubick2D.csproj", "{7294785A-0BCE-4448-906E-1885F5690AD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7294785A-0BCE-4448-906E-1885F5690AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7294785A-0BCE-4448-906E-1885F5690AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7294785A-0BCE-4448-906E-1885F5690AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7294785A-0BCE-4448-906E-1885F5690AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {142273B5-DE51-408B-BEE3-14E947E92D16}
+	EndGlobalSection
+EndGlobal
