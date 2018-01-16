@@ -11,6 +11,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -96,13 +97,38 @@ namespace rubick2D
         public void Shift(bool orientation, bool direction)
         {
             if (orientation) // горизонтальная 
-
-            {
-
+            {             
             }
             else // вертикальная
             {
             }
+        }
+
+        int[] ShiftLeft(int[] array)
+        {
+            int curr = array[array.Length - 1];
+            for (int i = array.Length - 1; i >= 0; i--)
+            {
+                int next = array[i - 1];
+                array[i - 1] = curr;
+                curr = next;
+            }
+
+            array[array.Length - 1] = curr;
+            return array;
+        }
+        int[] ShiftRight(int[] array)
+        {
+            int curr = array[0];
+            for (int i = 0; i <= array.Length - 1; i++)
+            {
+                int next = array[i + 1];
+                array[i + 1] = curr;
+                curr = next;
+            }
+
+            array[0] = curr;
+            return array;
         }
     }
 }
